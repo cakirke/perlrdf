@@ -22,3 +22,4 @@ env:
 
 before_install:
   - cd $MODULE_DIR
+  - cpanm --installdeps --notest . 
