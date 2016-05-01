@@ -20,5 +20,5 @@ env:
   - MODULE_DIR=RDF-Trine-Node-Literal-XML
   - MODULE_DIR=RDF-Trine-XS
 
-before_script:
+before_install:
   - cd $MODULE_DIR
